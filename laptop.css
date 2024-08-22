@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-size: 0px 15px;
+    background: rgba(0, 0, 0, 0.7) url('https://m.media-amazon.com/images/I/71j1qui-jyL._AC_SL1500_.jpg') center center fixed;
+    text-decoration: none;
+    background-size: cover;
+    margin-top: 175px;
+    font-family: sans-serif;
+    background-blend-mode: exclusion;
+    box-sizing: border-box;
+}
+header{
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* High z-index value to ensure it's on top */
+  
+}
+.header h1{
+   margin: 0;
+}
+.social-icons-right {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+
+.social-icons-right li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-icons-right i {
+  font-size: 85px;
+}
+.image-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+  }
+  a {
+    color: black; /* blue color */
+    text-decoration: none; /* remove underline */
+  }
+  
+  a:hover {
+    color: #0056b3; /* darker blue on hover */
+    text-decoration: none; /* add underline on hover */
+  }
+  
+  .image-container img {
+    transition: transform 0.5s ease; /* optional: adds a smooth transition */
+  }
+  .image-container img:hover {
+    transform: scale(0.9); /* increases the image size on hover */
+    /* or try these other options: */
+    /* opacity: 0.8; */ /* reduces opacity on hover */
+    /* filter: brightness(1.2); */ /* increases brightness on hover */
+    /* border: 5px solid #fff; */ /* adds a border on hover */
+  } 
+  .image-wrapper {
+    margin-bottom: 20px; 
+  }
+  .image-wrapper img {
+    margin-bottom: 10px;
+  }
+  .image-wrapper h3 {
+    text-align: center; 
+  }
+  .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .text-container p {
+    margin: 0;
+  }
+   
+  .image-column img {
+    margin-right: 30px;
+    margin-top: 30px;
+    max-width: 320px;
+  }  
+#contact-form{
+    display: flex;
+    flex-direction: column;
+}
+#contact-form label{
+margin-top: 1em;
+}
+#contact-form input, #contact-form textarea{
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#contact-form button{
+    margin-top: 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+#contact-form button:hover{
+ background: #555;
+}
+.totop{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 20px;
+}
+.totop:hover{
+  background: #333;
+}
+.totop img{
+    width: 20px;
+}
+
